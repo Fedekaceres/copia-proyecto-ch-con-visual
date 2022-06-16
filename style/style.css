@@ -1,0 +1,515 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+*{font-family: 'Iceberg', cursive;
+              }
+   body{
+      background-color: black;
+                  }
+
+    .headeR-Pyramid{ 
+    position: fixed;   
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 1rem 0rem;
+            display: flex;
+              justify-content: center;
+               background-color: rgba(43, 86, 138, .4);  
+                          }
+
+.headeR-Pyramid{
+     width: 100%;
+               }
+
+.pyramiD-Text {
+   color: white;
+      font-size: 3rem;
+        padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+                  } 
+
+/* empieza nav y aside */
+
+.sectioN-Nav-aside{
+   padding: 5rem 0rem 0rem 0rem;
+     margin: 0rem 0rem 0rem 0rem;
+               }
+   
+  .container-10{
+  height: 27rem;
+    background-image: url(..//img//imagenwachdogs.jpg); 
+       grid-gap: 1rem;
+         display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows: 1rem 0rem 0rem 10rem;
+            grid-template-areas: "nav" "nav" "nav"
+                                "aside"
+                                 "aside"
+                                 "aside";               
+                                     }
+  .naV-Gridd{
+    text-align: center;
+      background-color: orange ;
+        grid-area: nav;
+          grid-column-start:1;
+            grid-column-end: 3;
+                  }
+
+  .asidE-Grid{
+     border-radius: 0rem 1rem 1rem 0rem;
+       background-color: orange;
+        margin: 0rem 0rem 0rem 0rem;
+         grid-area: aside;
+          grid-row-start:4;
+            grid-row-end:  6;
+             grid-column-start: 0;
+               grid-column-end:0 ;
+
+                   }
+    .uL-Nav{
+     list-style: none;
+       margin: 0rem 0rem 0rem 0rem;
+         padding: 1rem 0rem 0rem 0rem;
+          justify-content: center;
+            display: flex;  }
+
+    .uL-Nav a{
+      color: black;
+       font-size: 1.2rem;
+         padding: 0rem 0rem 0rem 3rem;
+          text-decoration: none;
+                 }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+     color: black;
+       text-decoration: none;
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 2rem 0rem 1rem 1rem;
+               }
+
+  /*termina nav y aside*/
+
+ 
+/* empieza section y main */
+
+ .griD-Img{
+  margin-left: 1rem;
+    margin-top: 2rem;
+       display: grid;
+         grid-gap: 1rem;
+           grid-column-gap: 1rem;
+             grid-row-gap: 2rem;
+              grid-column-gap: 1rem;
+                grid-template-columns: 1fr 1fr 1fr 1fr ;
+                       }     
+
+    .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+          margin: 0rem -4rem 0rem 0rem ;
+           border-radius: 1rem;
+            height: 90%;
+                 } 
+
+  .griD-Img img:hover {
+       box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+          height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div { 
+         color: orange;
+              font-size: 1.3rem; 
+                       }
+    
+
+
+    /*proximoslanzamientos.html*/
+
+  .gridS-Article{
+     margin: 40rem 0rem 0rem 0rem;
+        display: grid;
+          grid-row-gap: 3rem;
+            grid-template-rows: 1fr ;
+               }
+
+    .gridS-Article  img{
+      height: 50vh;
+        width: 80vh;
+              } 
+
+  .gridS-Article div{
+        color: orange;
+             }          
+
+  /* termina proximoslanzamientos.html*/
+
+/*media vista tablet*/
+  @media (max-width: 768px){
+  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+ *{font-family: 'Iceberg', cursive;
+  box-sizing: border-box;}
+
+       
+    .headeR-Pyramid{    
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+            display: flex;
+              justify-content: center;
+               background-color: rgba(43, 86, 138, .4);  
+                          }
+
+
+    .headeR-Pyramid{
+        width: 100%;
+       
+                 }
+
+   .pyramiD-Text {
+      font-size: 3rem;
+        padding: 1rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+                  } 
+
+   /* empieza nav y aside */
+
+ .sectioN-Nav-aside{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: -5rem 0rem 0rem 0rem;
+               }
+
+   
+
+
+   .container-10{
+    height: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 29rem;
+    background-image:  url(..//img//imagenwachdogs.jpg);
+       grid-gap: 1rem;
+        display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows:  12rem 0rem 0rem 10rem ;
+            grid-template-areas:  "nav" 
+                                  "nav" 
+                                  "nav"
+                                  "aside"
+                                  "aside"
+                                  "aside" ;}
+  .naV-Gridd{
+    border-radius: 0rem 1rem 1rem 0rem;
+       text-align:center;
+        background-color: orange ;
+         grid-area: nav;
+
+                  }
+
+
+  .asidE-Grid{
+    border-radius: 0rem 1rem 1rem 0rem;
+      background-color: orange;
+       margin: 0rem 0rem 0rem 0rem;
+       grid-area: aside;
+                   }
+
+
+    .uL-Nav{
+
+     list-style: none;
+     margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
+      text-align: left;
+       flex-direction: column;
+          display: flex;  }
+
+
+ .uL-Nav li{
+      padding: 1rem 0rem 0rem .3rem;
+                }
+
+    .uL-Nav a{
+        color: black;
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 0rem 0rem;
+        text-decoration: none;
+             }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+    font-size: 1rem;
+     color: black;
+       text-decoration: none;
+         padding: 1rem 0rem 1rem 1rem;
+          margin: rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 1rem 0rem 0rem 0rem;
+               }
+
+ 
+
+
+  /*termina nav y aside*/
+
+/* empieza section y main */
+
+ .griD-Img{
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr  ;
+                }     
+
+
+     .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+        margin: 0rem -4rem 0rem 0rem ;
+        border-radius: 1rem;
+        height: 90%;
+            } 
+
+    .griD-Img img:hover {
+        box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+         height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div {
+        color: orange;
+              font-size: 1rem; 
+                       }
+
+
+   .griD-Img div:hover{
+         color: orange;
+             font-size: 1.1rem;
+               transition: all 1s; 
+                       }
+
+
+
+    /*proximoslanzamientos.html*/
+
+
+    .gridS-Article{
+        margin: 10rem 0rem 0rem 0rem;
+        display: grid;
+        grid-row-gap: 3rem;
+        grid-template-rows: 1fr 1fr 1fr ;
+              }
+
+       .gridS-Article  img{
+        height: 50vh;
+        width: 80vh;
+
+       } 
+
+      .gridS-Article div{
+          color: orange;
+             }         
+
+  /* termina proximoslanzamientos.html*/
+
+
+
+
+              }
+
+
+
+  /*media min para imagen vista mobile*/
+  @media (min-width: 769px){
+  .imG-Banner{display: none;} 
+                  }
+  /* termina media min para imagen vista mobile*/ 
+
+
+
+
+/*media para vista mobile*/
+
+    @media (max-width: 425px){
+  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+ *{font-family: 'Iceberg', cursive;
+  box-sizing: border-box;}
+
+       
+    .headeR-Pyramid{    
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+            display: flex;
+              justify-content: center;
+               background-color: rgba(43, 86, 138, .4);  
+                          }
+ .imG-Banner{
+    padding-top: 2rem;
+ }
+
+    .headeR-Pyramid{
+        width: 100%;
+                 }
+                 
+
+   .pyramiD-Text {
+      font-size: 3rem;
+        padding: 1rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+                  } 
+
+   /* empieza nav y aside */
+
+ .sectioN-Nav-aside{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: -5rem 0rem 0rem 0rem;
+               }
+
+   
+
+
+   .container-10{
+    height: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 29rem;
+    background-image:  url(..//img//imagenwachdogs.jpg);
+       grid-gap: 1rem;
+        display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows:  12rem 0rem 0rem 10rem ;
+            grid-template-areas:  "nav" 
+                                  "nav" 
+                                  "nav"
+                                  "aside"
+                                  "aside"
+                                  "aside" ;}
+  .naV-Gridd{
+    border-radius: 0rem 1rem 1rem 0rem;
+       text-align:center;
+        background-color: orange ;
+         grid-area: nav;
+                  }
+
+
+  .asidE-Grid{
+    border-radius: 0rem 1rem 1rem 0rem;
+      background-color: orange;
+       margin: 0rem 0rem 0rem 0rem;
+       grid-area: aside;
+                   }
+
+
+    .uL-Nav{
+
+     list-style: none;
+     margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
+      text-align: left;
+       flex-direction: column;
+          display: flex;  }
+
+
+ .uL-Nav li{
+      padding: 1rem 0rem 0rem .3rem;
+                }
+
+    .uL-Nav a{
+        color: black;
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 0rem 0rem;
+        text-decoration: none;
+             }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+    font-size: 1rem;
+     color: black;
+       text-decoration: none;
+         padding: 1rem 0rem 1rem 1rem;
+          margin: rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 1rem 0rem 0rem 0rem;
+               }
+
+ 
+
+
+  /*termina nav y aside*/
+
+/* empieza section y main */
+
+  .griD-Img{
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 1fr   ;
+                }     
+
+
+     .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+        margin: 0rem -4rem 0rem 0rem ;
+        border-radius: 1rem;
+        height: 90%;
+            } 
+
+    .griD-Img img:hover {
+        box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+         height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div {
+        color: orange;
+              font-size: 1rem; 
+                       }
+
+
+   .griD-Img div:hover{
+         color: orange;
+             font-size: 1.1rem;
+               transition: all 1s; 
+                       }
+              }
