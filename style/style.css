@@ -99,6 +99,23 @@
       padding: 2rem 0rem 1rem 1rem;
                }
 
+  /* nav y aside con hover y transition */
+
+  .uL-Nav  a:hover{
+    color: #ec008c;
+    font-size: 1.3rem;
+    transition: all 1s;
+    
+     }
+
+     .griDS-Aside a:hover{
+      color: #ec008c;
+      font-size: 1.3rem;
+      transition: all 1s;
+      
+       }
+
+
   /*termina nav y aside*/
 
  
@@ -136,9 +153,18 @@
 
 
     /*proximoslanzamientos.html*/
+    .arT-Texh2{
+      display: flex;
+      font-size: 2rem;  
+    }
+
+  .backgorounD-De-Proximolanzamientos{
+    background-color:#0F2027 ;
+
+              }
 
   .gridS-Article{
-     margin: 40rem 0rem 0rem 0rem;
+     margin: 25rem 0rem 0rem 0rem;
         display: grid;
           grid-row-gap: 3rem;
             grid-template-rows: 1fr ;
@@ -151,7 +177,19 @@
 
   .gridS-Article div{
         color: orange;
-             }          
+             } 
+             
+             .gridS-Article p{
+               line-height: 1.9rem;
+               padding: 0rem 0rem 0rem 0rem;
+               margin: 1rem 0rem 0rem 0rem;
+               font-size: 1.3rem;
+             } 
+             .gridS-Article img{
+               border-radius: 2rem;
+               padding: 0rem 1rem 0rem 0rem;
+             }
+
 
   /* termina proximoslanzamientos.html*/
 
